@@ -55,8 +55,93 @@
         </dt>
         <dd>Aplicamos propiedades CSS a una etiqueta</dd>
         <dt>Selector descendente</dt>
-        <dd>Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. Estos seectores siempre están formados por dos o más selectores separados entre si</dd>
+        <dd>Con este selector seleccionamos un elemento que está dentro de otro del mismo tipo. Estos seectores siempre
+            están formados por dos o más selectores separados entre si</dd>
     </dl>
+
+    <p style="font-size: larger;"><u>como funciona CSS</u></p>
+    <ol>
+        <li>el navegador carga el HTML</li>
+        <li>el HTML pasa a ser un DOM (el documento en la memoria del ordenador)</li>
+        <li>el navegador empieza abuscr todos los recursos que estan en el html, css y javascrip </li>
+        <li>despues, analiza los selectores del CSS y aplica las reglas <I>(arbol de renderización)</I></li>
+        <li>el árbol de renderización presenta la estructura en que los nodos deben aparecer después de aplicarle las
+            reglas </li>
+        <li>en la pantalla se muestra el aspecto visual de la página (pintura)</li>
+    </ol>
+
+    <h3>¿Cuáles son las tres formas para vincular CSS con HTML?</h3>
+    <p>las tres formas para vincular css con html son:</p>
+    <ul>
+        <li>en <i><b>head</b></i> poner la etiqueta <i>style</i> </li>
+        <li>en <i><b>body</b></i> ponemos el atributo <i>style</i></li>
+        <li>la ultima opcion es hacere un archivo nuevo .css</li>
+    </ul>
+    <h3>- Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los
+        siguientes pasos: </h3>
+    <p> Hacer clic en View All Designs <br>
+        Elegir dos diseños y abrirlo en pestañas distintas <br>
+        En el primer diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador) <br>
+        En el segundo diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+        <br>
+        Escribir la URL de los dos diseños seleccionados <br>
+        <a href="https://www.csszengarden.com/219/">diseño 1</a> <br> <a href="https://www.csszengarden.com/211/">diseño 2</a>
+         y responder: las etiquetas dentro de body ¿son iguales? ¿Qué es lo distinto? ¿Qué contribuye al cambio de diseño? <br>
+        las etiquetas dentro del body son las mismas pero cambia el contenido dentro de las mismas 
+
+        Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos?
+        En líneas generales, el mismo HTML ¿puede tener diferentes diseños? <br>
+        no son los mismos diseños. el mismo html puede tener distentos diseños poruqe puede variar el css
+
+    </p>
+
+    <table>
+        <tr>
+            <th>propiedades </th>
+            <th>descripcion </th>
+            <th>valores posible </th>
+        </tr>
+        <tr>
+            <td>color </td>
+            <td>define el color del texto</td>
+            <td>rgb (34, 12, 64, 0,4) <br>
+            green <br>
+        090a</td>
+        </tr>
+        <tr>
+            <td>background-color</td>
+             <td>Define el color de fondo de un elemento </td>
+             <td>transparent-color</td>
+        </tr>
+        <tr>
+            <td>font-size</td>
+            <td>Define el tamaño de la fuente del texto.</td>
+            <td>xx-large</td>
+        </tr>
+        <tr>
+            <td>font-weight</td>
+            <td>Define el grosor de la fuente del texto (por ejemplo, si se trata de texto en negrita o normal). </td>
+            <td>normal, bolder and lighter </td>
+        </tr>
+        <tr>
+            <td>font-style</td>
+            <td>Define el estilo de la fuente del texto (por ejemplo, si es cursiva o normal).</td>
+            <td>normal; italic; oblique;</td>
+        </tr>
+        <tr>
+            <td>font-family </td>
+            <td>Define el tipo de letra a utilizar para el texto.</td>
+            <td>como se especifica </td>
+        </tr>
+        <tr>
+            <td>text-align </td>
+            <td>Define la alineación horizontal del texto (izquierda, centro o derecha)</td>
+            <td>left; right; center </td>
+        </tr>
+        <tr>
+            <td>text-decoration</td>
+        </tr>
+    </table>
 </body>
 
 </html>
